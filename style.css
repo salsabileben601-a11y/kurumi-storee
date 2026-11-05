@@ -1,0 +1,48 @@
+.line {
+    background-color: rgb(88, 4, 88);
+    height: 4px;
+    border: none;
+}
+
+.price {
+    color: rgb(99, 5, 99);
+    font-size: larger;
+}
+
+.product-slider {
+    display: flex;
+    overflow-x: auto;
+    width: 100%;
+    flex: 0 auto;
+    scrollbar-width: none;
+
+
+}
+
+.product-card {
+    margin: 25px;
+    background-color: white;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    padding: 16px;
+    transition: transform 0.3s ease, box-shadow 0.3 ease;
+    transition: all 0.3s ease;
+
+}
+
+img {
+    border-radius: 15px;
+
+}
+
+.product-card img {
+    width: 200px;
+    height: 190px;
+}
+
+.product-card:hover {
+
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    border-color: darkmagenta;
+}
