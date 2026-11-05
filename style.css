@@ -1,0 +1,39 @@
+.line {
+    background-color: rgb(88, 4, 88);
+    height: 4px;
+    border: none;
+}
+
+.price {
+    color: rgb(99, 5, 99);
+    font-size: larger;
+}
+
+.product-slider {
+    display: flex;
+    overflow-x: auto;
+    width: 900px;
+    flex: 0 auto;
+    scrollbar-width: none;
+
+
+}
+
+.product-card {
+    margin: 25px;
+    background-color: white;
+
+    border-radius: 15px;
+    padding: 16px;
+
+}
+
+img {
+    border-radius: 15px;
+
+}
+
+.product-card img {
+    width: 200px;
+    height: 190px;
+}
