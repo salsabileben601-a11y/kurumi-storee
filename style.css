@@ -12,7 +12,7 @@
 .product-slider {
     display: flex;
     overflow-x: auto;
-    width: 900px;
+    width: 100%;
     flex: 0 auto;
     scrollbar-width: none;
 
